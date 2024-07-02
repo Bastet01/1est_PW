@@ -1,0 +1,147 @@
+body{
+    background-color: #A9D18E;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: #66FF66;
+    
+}
+h1{
+    text-align: center;
+    padding: 1%;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: #66FF66;
+}
+nav{
+    background-color: #385723;
+    text-align: center;
+    
+}
+.pantallazo{
+    background-image: url(img/perro.png);
+    padding: 15%;
+    background-size: cover;
+    
+}
+h2{
+    text-align: center;
+}
+table{
+    text-align: center;
+    width: 60%;
+    height: 50%;
+    background-color: #C5E0B4 ;
+}
+table, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.descuentos{
+    color: red;
+}
+.raza{
+    color: white;
+    background-color: #385723;
+}
+.apps{
+    height: 100px;
+    width: 100px;
+}
+.redes_sociales{
+    background-color:#8CC26A  ;
+}
+.flex{
+    padding: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-position: bottom;
+    background-size: cover;
+}
+.mapa{
+    margin: auto;
+    background-color: gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.localización{
+    background-color: #A9D18E;
+}
+.form{
+    background-color: #385723;
+    color: white;
+    padding: 20px;
+}
+.que_somos{
+    text-align: justify;
+    padding: 10px;
+    background-color: beige;
+}
+.horarios{
+    text-align: center;
+    width: 60%;
+    height: 50%;
+    background-color: #C5E0B4 ;
+}
+.flex_wrap{
+    background-color: #C5E0B4;
+    background-position: bottom;
+    background-size: cover;
+    padding: 20px;
+    border: 5px solid green;
+    height: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.galeria{
+
+    border: 5px solid blue;
+    overflow: hidden;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+}
+.productos{
+    list-style-image: url(img/estrella.jpg);
+}
+.servicios{
+    list-style-image: url(img/espiral.jpg);
+}
+.articulos{
+    list-style-image: url(img/corazon.jpg);
+}
+.box{
+    text-align: center;
+    
+}
+.boton{
+    height: 100px;
+    width: 300px;
+}
+.box_2{
+    text-align: justify;
+}
+.abajo{
+    background-color: black;
+    color: white;
+    border: black;
+    background-size: cover;
+    width: 1300px;
+}
+.derechos{
+    background-color: gray;
+    color: black;
+    text-align: center;
+}
